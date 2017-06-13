@@ -1,11 +1,14 @@
 [
-	{
-		"trigger": {
-        "url-filter": ".*",
-        "resource-type": ["image", "style-sheet"]
-},
-		"action": {
-			"type": "block"
-		}
-	}
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "resource-type": [
+        "image",
+        "style-sheet"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  }
 ]
