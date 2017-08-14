@@ -1,46 +1,98 @@
-{
-  "filters": [
-    {
-      "id": 1,
-      "name": "English filters",
-      "version": "1.100500",
-      "date": 1502448977,
-      "www": "easylist.com",
-      "description": "Very powerfull filters",
-      "content": [
-        {
-          "trigger": {
-            "url-filter": ".*",
-            "resource-type": [
-              "style-sheet"
-            ]
-          },
-          "action": {
-            "type": "block"
+[
+  {
+    "categoryId": 1,
+    "categoryName""stopadFilters",
+    "filters": [
+      {
+        "id": 1,
+        "name": "English filters",
+        "version": "1.100500",
+        "date": 1502448977,
+        "www": "easylist.com",
+        "description": "Very powerfull filters",
+        "content": [
+          {
+            "trigger": {
+              "url-filter": ".*",
+              "resource-type": [
+                "style-sheet"
+              ]
+            },
+            "action": {
+              "type": "block"
+            }
           }
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "name": "russian filters",
-      "version": "1.10325500",
-      "date": 1502448977,
-      "www": "ukr.net",
-      "description": "Not Very powerfull filters",
-      "content": [
-        {
-          "trigger": {
-            "url-filter": ".*",
-            "resource-type": [
-              "style-sheet"
-            ]
-          },
-          "action": {
-            "type": "block"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "spyWare",
+        "version": "1.10325500",
+        "date": 1502448977,
+        "www": "ukr.net",
+        "description": "Not Very powerfull filters",
+        "content": [
+          {
+            "trigger": {
+              "url-filter": ".*",
+              "resource-type": [
+                "style-sheet"
+              ]
+            },
+            "action": {
+              "type": "block"
+            }
           }
-        }
-      ]
-    }
-  ]
-}
+        ]
+      }
+    ]
+  },
+  {
+    "categoryId": 2,
+    "categoryName""easylist",
+    "filters": [
+      {
+        "id": 1,
+        "name": "easylist",
+        "version": "1.100500",
+        "date": 1502448977,
+        "www": "easylist.com",
+        "description": "Very powerfull filters",
+        "content": [
+          {
+            "trigger": {
+              "url-filter": ".*",
+              "resource-type": [
+                "style-sheet"
+              ]
+            },
+            "action": {
+              "type": "block"
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "easylist privacy",
+        "version": "1.10325500",
+        "date": 1502448977,
+        "www": "ukr.net",
+        "description": "Not Very powerfull filters",
+        "content": [
+          {
+            "trigger": {
+              "url-filter": ".*",
+              "resource-type": [
+                "style-sheet"
+              ]
+            },
+            "action": {
+              "type": "block"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
