@@ -1,7 +1,7 @@
 [
   {
     "groupId": 1,
-    "groupName""stopadFilters",
+    "groupName":"stopadFilters",
     "filters": [
       {
         "id": 1,
@@ -49,7 +49,7 @@
   },
   {
     "groupId": 2,
-    "groupName""easylist",
+    "groupName":"easylist",
     "filters": [
       {
         "id": 1,
