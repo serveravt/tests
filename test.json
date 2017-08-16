@@ -10,7 +10,7 @@
           "name": "English filters",
           "version": "1.100500",
           "date": 1502448977,
-          "www": "easylist.com",
+          "www": "http://easylist.com",
           "description": "Very powerfull filters",
           "content": [
             {
@@ -31,7 +31,7 @@
           "name": "spyWare",
           "version": "1.10325500",
           "date": 1502448977,
-          "www": "ukr.net",
+          "www": "http://ukr.net",
           "description": "Not Very powerfull filters",
           "content": [
             {
@@ -58,7 +58,7 @@
           "name": "easylist",
           "version": "1.100500",
           "date": 1502448977,
-          "www": "easylist.com",
+          "www": "http://easylist.com",
           "description": "Very powerfull filters",
           "content": [
             {
