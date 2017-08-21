@@ -7,7 +7,7 @@
       "filters": [
         {
           "id": 1,
-          "name": "English filters",
+          "name": "block all styles",
           "version": "1.100500",
           "date": 1502448977,
           "www": "http://easylist.com",
@@ -28,21 +28,30 @@
         },
         {
           "id": 2,
-          "name": "spyWare",
+          "name": "ukr.net white",
           "version": "1.10325500",
           "date": 1502448977,
           "www": "http://ukr.net",
-          "description": "Not Very powerfull filters",
+          "description": "cancel blocking on ukr.net",
           "content": [
             {
               "trigger": {
                 "url-filter": ".*",
-                "resource-type": [
-                  "style-sheet"
+                 "resource-type": [
+                  "image",
+                  "style-sheet",
+                  "script",
+                  "font",
+                  "media",
+                  "raw",
+                  "document"
+                ],
+                "if-domain": [
+                  "*ukr.net"
                 ]
               },
               "action": {
-                "type": "block"
+                "type": "ignore-previous-rules"
               }
             }
           ]
